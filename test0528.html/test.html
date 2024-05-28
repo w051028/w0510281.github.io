@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>반응형 웹 만들기</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+            width: 960px;
+            margin: 0px auto;
+        }
+        #menu {
+            width:300px;
+            float : right;
+        }
+        #content {
+            width:660px;
+            float:right;
+        }
+        li {
+            list-style: none;
+        }
+        @media screen and (max-width:767px){
+            body {
+                width: auto;
+            }
+            #menu {
+                width: auto;
+                float : none;
+            }
+            #content {
+                width: auto;
+                float:none;
+            }
+        }
+    </style> 
+</head>
+<body>
+    <div id="content">
+        <img src="0-1s.jpg">
+        <h3>강아지 풀</h3>
+        <p>rkddkwlvnf a;sldkfj;lakw;lqkn;wlneavgbgbt</p>
+    </div>
+    <div id="menu">
+        <ul>
+            <li>강아지3 풀 |</li>
+            <li>강아지1 풀 |</li>
+            <li>강아지2 풀 |</li>
+        </ul>
+    </div>
+</body>
+</html>
